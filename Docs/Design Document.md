@@ -1,4 +1,4 @@
-Check out the [[WatchIt/Docs/README|README]] for a project overview.
+Check out the [[WatchIt/README|README]] for a project overview.
 # WatchIt — Design Document
 
 > **Version:** 0.1  

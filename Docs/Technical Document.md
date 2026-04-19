@@ -5,7 +5,7 @@
 > **Status:** In Progress
 
 ---
-Check out the [[WatchIt/Docs/README|README]] for a breakdown of the project.
+Check out the [[WatchIt/README|README]] for a breakdown of the project.
 ## 1. System Requirements
 
 |Requirement|Minimum|
@@ -401,5 +401,5 @@ make lint         # Run golangci-lint
 - **SQLite concurrent writes** — SQLite handles one write at a time. The background polling goroutine and any user actions that write simultaneously are serialized automatically, but under heavy use this could cause brief UI delays. This is acceptable at the current scale.
 - **No schema rollback** — migrations are applied automatically on launch and there is no rollback mechanism for end users. Breaking schema changes require careful migration planning.
 
-Check out the [[WatchIt/Docs/README|README]] for the project overview and feature list
+Check out the [[WatchIt/README|README]] for the project overview and feature list
 
